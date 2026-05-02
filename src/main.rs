@@ -36,7 +36,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     fs::write(&filename, bg).await?;
     Command::new("awww")
-        .args(&["img", &filename])
+        .args(["img", &filename])
         .spawn()
         .unwrap()
         .wait()

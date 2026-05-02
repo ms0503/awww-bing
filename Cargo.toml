@@ -16,4 +16,4 @@ authors = ["Sora Tonami <ms0503@outlook.com>"]
 edition = "2024"
 name = "awww-bing"
 resolver = "3"
-version = "0.3.0"
+version = "0.3.1"
